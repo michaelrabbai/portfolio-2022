@@ -2,9 +2,18 @@
 
 * {
   box-sizing: border-box;
+  --white: #fcfcff;
+  --black: #000;
+  --github-purple: #6e5494;
+  --linkedin-blue: #0077b5;
+  --gmail-red: #bb001b;
 }
 
-body {
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
   margin: 0;
   font-family: 'Titillium Web', sans-serif;
   -webkit-font-smoothing: antialiased;
