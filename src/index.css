@@ -20,3 +20,8 @@ body,
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--white);
 }
+
+.app {
+  display: flex;
+  margin: 5vh calc(100vw / 3 / 2);
+}
